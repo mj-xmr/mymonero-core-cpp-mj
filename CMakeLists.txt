@@ -111,7 +111,7 @@ set(
 )
 # needed for slow-hash
 add_compile_options(-maes)
-add_compile_options(-emit-llvm)
+#add_compile_options(-emit-llvm)
 
 add_compile_definitions(MYMONERO_CORE_CUSTOM)
 
